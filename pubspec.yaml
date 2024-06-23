@@ -1,0 +1,143 @@
+name: flutter_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_svg: ^2.0.10+1
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/
+  # - assets/images/c_9549067_e_15_ac_6382_a_85_be_6_d_69_ca_9_bef_farm_life_life_s_1.jpeg
+  # - assets/images/quotes_122.png
+  # - assets/images/oip_2.jpeg
+  # - assets/images/oip_12.jpeg
+  # - assets/vectors/arrow_left_4_x2.svg
+  # - assets/vectors/image_2_x2.svg
+  # - assets/vectors/vector_7_x2.svg
+  # - assets/vectors/vector_10_x2.svg
+  # - assets/vectors/battery_x2.svg
+  # - assets/vectors/mobile_signal_x2.svg
+  # - assets/vectors/vector_11_x2.svg
+  # - assets/vectors/wifi_10_x2.svg
+  # - assets/images/quotes_bg_11.jpeg
+  # - assets/vectors/image_4_x2.svg
+  # - assets/vectors/arrow_left_6_x2.svg
+  # - assets/vectors/battery_4_x2.svg
+  # - assets/vectors/mobile_signal_4_x2.svg
+  # - assets/vectors/wifi_x2.svg
+  # - assets/images/image_21.png
+  # - assets/images/quotes_bg_1.jpeg
+  # - assets/vectors/battery_10_x2.svg
+  # - assets/vectors/mobile_signal_12_x2.svg
+  # - assets/vectors/image_9_x2.svg
+  # - assets/vectors/wifi_11_x2.svg
+  # - assets/images/quotes_122.png
+  # - assets/vectors/wifi_6_x2.svg
+  # - assets/vectors/image_13_x2.svg
+  # - assets/vectors/search_x2.svg
+  # - assets/vectors/battery_5_x2.svg
+  # - assets/vectors/filter_1_x2.svg
+  # - assets/vectors/mobile_signal_10_x2.svg
+  # - assets/vectors/vector_9_x2.svg
+  # - assets/vectors/vector_16_x2.svg
+  # - assets/vectors/combined_shape_2_x2.svg
+  # - assets/vectors/vector_17_x2.svg
+  # - assets/vectors/vector_12_x2.svg
+  # - assets/images/quotes_bg_21.jpeg
+  # - assets/images/image_21.png
+  # - assets/vectors/image_8_x2.svg
+  # - assets/vectors/mobile_signal_2_x2.svg
+  # - assets/vectors/wifi_4_x2.svg
+  # - assets/vectors/battery_8_x2.svg
+  # - assets/images/quotes_122.png
+  # - assets/vectors/image_7_x2.svg
+  # - assets/vectors/filter_x2.svg
+  # - assets/vectors/battery_1_x2.svg
+  # - assets/vectors/vector_1_x2.svg
+  # - assets/vectors/search_1_x2.svg
+  # - assets/vectors/vector_18_x2.svg
+  # - assets/vectors/vector_3_x2.svg
+  # - assets/vectors/combined_shape_x2.svg
+  # - assets/vectors/heart_x2.svg
+  # - assets/vectors/arrow_left_2_x2.svg
+  # - assets/vectors/mobile_signal_6_x2.svg
+  # - assets/vectors/wifi_1_x2.svg
+  # - assets/images/quotes_bg_11.jpeg
+  # - assets/vectors/mobile_signal_7_x2.svg
+  # - assets/vectors/wifi_9_x2.svg
+  # - assets/vectors/image_3_x2.svg
+  # - assets/vectors/battery_11_x2.svg
+  # - assets/vectors/mobile_signal_9_x2.svg
+  # - assets/vectors/wifi_12_x2.svg
+  # - assets/vectors/arrow_left_5_x2.svg
+  # - assets/vectors/battery_7_x2.svg
+  # - assets/vectors/image_10_x2.svg
+  # - assets/images/image_21.png
+  # - assets/images/quotes_bg_11.jpeg
+  # - assets/vectors/wifi_8_x2.svg
+  # - assets/vectors/mobile_signal_8_x2.svg
+  # - assets/vectors/image_5_x2.svg
+  # - assets/vectors/battery_12_x2.svg
+  # - assets/vectors/image_x2.svg
+  # - assets/vectors/wifi_5_x2.svg
+  # - assets/vectors/stroke_14_x2.svg
+  # - assets/vectors/stroke_13_x2.svg
+  # - assets/vectors/stroke_12_x2.svg
+  # - assets/vectors/stroke_11_x2.svg
+  # - assets/vectors/arrow_left_3_x2.svg
+  # - assets/vectors/mobile_signal_3_x2.svg
+  # - assets/vectors/battery_6_x2.svg
+  # - assets/vectors/stroke_1_x2.svg
+  # - assets/images/quotes_122.png
+  # - assets/vectors/arrow_left_x2.svg
+  # - assets/vectors/wifi_3_x2.svg
+  # - assets/vectors/image_12_x2.svg
+  # - assets/vectors/mobile_signal_1_x2.svg
+  # - assets/vectors/battery_13_x2.svg
+  # - assets/vectors/download_1_x2.svg
+  # - assets/images/quotes_122.png
+  # - assets/vectors/vector_2_x2.svg
+  # - assets/vectors/vector_4_x2.svg
+  # - assets/vectors/arrow_left_1_x2.svg
+  # - assets/vectors/vector_5_x2.svg
+  # - assets/vectors/wifi_7_x2.svg
+  # - assets/vectors/battery_2_x2.svg
+  # - assets/vectors/image_1_x2.svg
+  # - assets/vectors/mobile_signal_11_x2.svg
+  # - assets/images/quotes_bg_21.jpeg
+  # - assets/vectors/vector_6_x2.svg
+  # - assets/vectors/group_x2.svg
+  # - assets/vectors/image_11_x2.svg
+  # - assets/vectors/mobile_signal_5_x2.svg
+  # - assets/vectors/wifi_13_x2.svg
+  # - assets/vectors/battery_3_x2.svg
+  # - assets/vectors/vector_15_x2.svg
+  # - assets/vectors/vector_x2.svg
+  # - assets/vectors/vector_13_x2.svg
+  # - assets/vectors/vector_14_x2.svg
+  # - assets/images/quotes_122.png
+  # - assets/vectors/download_x2.svg
+  # - assets/vectors/battery_9_x2.svg
+  # - assets/vectors/send_x2.svg
+  # - assets/vectors/wifi_2_x2.svg
+  # - assets/vectors/mobile_signal_13_x2.svg
+  # - assets/vectors/image_6_x2.svg
+  # - assets/vectors/vector_8_x2.svg
+  # - assets/vectors/combined_shape_1_x2.svg
+
